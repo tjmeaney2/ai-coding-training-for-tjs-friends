@@ -63,18 +63,31 @@ Count items in the Ideas Backlog section. Show:
 
 ### Suggested Next Step
 
-Based on their progress, suggest what to do:
+After showing the status, offer a dropdown with relevant options based on their progress:
 
-- If no concepts completed: "Ready to learn? Type `/learn` to start with 'Everything is Data'"
-- If mid-journey: "Type `/learn` to continue with '[next unchecked concept]'"
-- If all concepts done but not "Ready for first build": "You're almost there! One more `/learn` session to wrap up."
-- If fully complete: "You're ready to build! Want to start the Morning Brief project?"
+**If no concepts completed:**
+- **Start learning** - Begin with "Everything is Data"
+- **Review my profile** - See what you know about me
+- **Update my goals** - My situation has changed
+
+**If mid-journey:**
+- **Continue learning** - Pick up with [next concept]
+- **Review last concept** - Refresh my memory first
+- **Check my glossary** - Review terms I've learned
+- **See my ideas** - Check my project backlog
+
+**If all concepts done:**
+- **Start my first project** - Let's build something
+- **Review concepts** - Go back over the fundamentals
+- **Explore my ideas** - Pick a project from my backlog
+- **I have questions** - Something I want to clarify
 
 ## Keep It Clean
 
 - Use the learner's name
 - Keep the display concise and scannable
 - Be encouraging but not over-the-top
-- Make the next action clear
+- Use dropdown to make next action easy to choose
+- Use the AskUserQuestion tool for the options
 
 </status-skill>

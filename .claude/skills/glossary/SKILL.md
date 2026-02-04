@@ -44,10 +44,13 @@ Database
 
 ## Step 3: Offer Options
 
-After displaying, ask if they'd like to:
-- Have any term explained in more depth
-- Add a term they've encountered elsewhere
-- Return to learning with `/learn`
+After displaying, use a dropdown to ask what they'd like to do:
+
+**What would you like to do?**
+- **Explain a term deeper** - I want to understand one of these better
+- **Add a new term** - I encountered something I want to remember
+- **Quiz me** - Test my understanding of these terms
+- **Back to learning** - Return to `/learn`
 
 ## Adding Terms
 

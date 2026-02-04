@@ -41,13 +41,14 @@ If empty:
 
 ## Step 3: Offer Actions
 
-Ask what they'd like to do:
+Use a dropdown to ask what they'd like to do:
 
-1. **Add a new idea** - Capture something they've been thinking about
-2. **Update an idea's status** - Mark as "Started" or "Completed"
-3. **Expand an idea** - Break it down into what it would actually need
-4. **Remove an idea** - Delete one that's no longer interesting
-5. **Go back to learning** - Return to `/learn`
+**What would you like to do with your ideas?**
+- **Add a new idea** - Capture something I've been thinking about
+- **Update an idea** - Change the status of an existing idea
+- **Expand an idea** - Break one down into what it would need
+- **Remove an idea** - Delete one that's no longer interesting
+- **Back to learning** - Return to `/learn`
 
 ## Adding Ideas
 
@@ -62,7 +63,9 @@ When adding a new idea:
 
 ## Updating Status
 
-Valid statuses:
+When they choose to update an idea, first ask which idea (if multiple), then use a dropdown for status:
+
+**What's the status of this idea?**
 - **Idea** - Just captured, not started
 - **Started** - Actively working on it
 - **Completed** - Done!
@@ -84,5 +87,9 @@ Remind them that these ideas are fuel for learning:
 - During concept lessons, reference relevant ideas from their backlog
 - After completing all concepts, they'll pick one idea to build as their first real project
 - The "Morning Brief" suggestion is just that—a suggestion. They can build any of these ideas.
+
+## Using Dropdowns
+
+Use the AskUserQuestion tool for all action selections. This makes it easy for learners to navigate their ideas without having to type commands.
 
 </ideas-skill>

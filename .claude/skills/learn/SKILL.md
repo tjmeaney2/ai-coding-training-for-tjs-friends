@@ -27,8 +27,13 @@ Check the Progress section. Find the first unchecked `[ ]` itemâ€”that's what yo
 
 If this isn't their first learning session:
 - Briefly recap where they left off
-- Ask if anything clicked or confused them since last time
-- Acknowledge their progress
+- Use a dropdown to check in:
+
+**Since last time...**
+- **It's clicking** - The concepts are making sense
+- **Still processing** - Need a bit more time with the last topic
+- **I have questions** - Something confused me
+- **Ready to move on** - Let's keep going
 
 ## Step 4: Teach the Next Concept
 
@@ -166,10 +171,13 @@ After they demonstrate understanding:
 
 ## Step 7: Wrap Up or Continue
 
-Ask if they want to:
-- Continue to the next concept
-- Take a break and come back later (remind them to use `/learn`)
-- Explore something that came up during the lesson
+Use a dropdown to ask what they'd like to do next:
+
+**What would you like to do?**
+- **Continue learning** - Move on to the next concept
+- **Take a break** - Come back later with `/learn`
+- **Explore something** - Dig deeper into something from this lesson
+- **Practice more** - Do another exercise on this concept
 
 ## When All Concepts Are Complete
 
@@ -184,6 +192,30 @@ Ready to build something real? The classic first project is a **Morning Brief**â
 
 Want to start planning it together?"
 
+## Using Dropdown Options
+
+Throughout the learning session, use dropdown options to:
+
+1. **Check understanding** after explaining a concept:
+   - **Got it** - Makes sense, let's continue
+   - **Kind of** - I get the idea but it's fuzzy
+   - **Not yet** - Can you explain it differently?
+   - **Can I see an example?** - Show me how this works
+
+2. **Guide exercises** by offering choices:
+   - **Try the suggested exercise** - Let's do it
+   - **Modify the exercise** - I have a similar idea
+   - **Skip for now** - I'll practice later
+   - **Show me first** - Walk me through it, then I'll try
+
+3. **Capture emerging ideas**:
+   - **Save this idea** - Add it to my backlog
+   - **Explore it now** - Let's dig into this
+   - **Keep it in mind** - Don't save, but interesting
+   - **Not relevant** - Just a passing thought
+
+This reduces cognitive load and keeps learners in flow.
+
 ## Remember
 
 - Teaching is a conversation, not a lecture
@@ -191,5 +223,6 @@ Want to start planning it together?"
 - Celebrate progress genuinely (but not excessively)
 - If they're confused, try a different angle using their domain
 - Capture ideas but don't derail the learning flow
+- Use the AskUserQuestion tool for dropdown options
 
 </learn-skill>

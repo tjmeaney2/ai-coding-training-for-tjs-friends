@@ -11,11 +11,13 @@ This is a destructive action—handle with care and confirmation.
 
 ## Step 1: Confirm Intent
 
-Ask clearly:
+Explain what will happen, then use a dropdown to confirm:
 
-"This will delete your learner profile and all progress. Your notes and experiments will remain, but you'll need to go through setup again.
+"This will delete your learner profile and all progress. Your notes and experiments will remain, but you'll need to go through setup again."
 
-Are you sure you want to start over? (yes/no)"
+**Are you sure you want to start over?**
+- **Yes, reset everything** - Delete my profile and start fresh
+- **No, keep my progress** - Cancel, don't delete anything
 
 ## Step 2: If They Confirm
 

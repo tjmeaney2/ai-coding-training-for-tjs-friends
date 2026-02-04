@@ -36,25 +36,54 @@ Terms and concepts you've learned, explained in your own words.
 
 Start with a warm greeting and your first question. Be curious, not clinical.
 
-### Questions to weave into conversation (adapt phrasing naturally):
+**Use dropdown options where indicated** - This helps learners by showing them what kinds of answers make sense. They can always choose "Other" for custom responses.
 
-**Getting to know them:**
+### Questions to weave into conversation:
+
+**Getting to know them (open-ended):**
 1. What's your name?
 2. What do you do for work (or what fills most of your time)?
 3. What apps or tools do you live in daily? (Email, Notion, Slack, spreadsheets, etc.)
-4. Have you ever written code, formulas, or anything that felt like giving a computer instructions?
 
-**Understanding how they think:**
-5. When you use [their main app], do you think of it as "a place where your data lives" or "a tool you use"? (This reveals systems vs interface thinking—note their answer)
-6. Have you ever wished two apps could talk to each other? What was the situation?
+**Tech background (use dropdown):**
+4. Have you ever written anything that felt like giving a computer instructions?
+   - **Spreadsheet formulas** - Excel, Google Sheets, etc.
+   - **No-code tools** - Zapier, Airtable automations, etc.
+   - **A little code** - HTML, Python, JavaScript, etc.
+   - **Nothing yet** - Completely new to this
 
-**Learning style:**
-7. When you learn something new, do you prefer to understand the structure/theory first, or dive in and figure it out as you go?
-8. When something breaks, is your instinct to tinker until it works, or stop and understand the problem first?
+**Understanding how they think (use dropdown):**
+5. When you use [their main app], how do you think about it?
+   - **A tool I use** - I click buttons and it does things
+   - **A place where my data lives** - I think about the information inside it
+   - **Not sure** - Never thought about it this way
 
-**Their goals:**
-9. What tasks in your week feel repetitive and brainless but still require your time?
-10. If you could wave a magic wand and have any system built for you, what would it do?
+6. Have you ever wished two apps could talk to each other?
+   - **Yes, all the time** - I'll tell you about it
+   - **Maybe once or twice** - Let me think...
+   - **Not really** - I usually just copy-paste between them
+
+**Learning style (use dropdown):**
+7. When you learn something new, what's your style?
+   - **Theory first** - I want to understand how it works before I try it
+   - **Dive in first** - I figure things out by doing, then learn why later
+   - **Depends on the topic** - Mix of both
+
+8. When something breaks, what's your instinct?
+   - **Tinker until it works** - Try different things and see what happens
+   - **Stop and understand** - Figure out what went wrong before touching anything
+   - **Ask for help** - Find someone who knows
+
+**Their goals (open-ended, then dropdown):**
+9. What tasks in your week feel repetitive and brainless but still require your time? (open-ended)
+
+10. If you could wave a magic wand and have any system built for you, what would it do? (open-ended)
+
+11. What would success look like for you here?
+    - **Build one useful automation** - Something that saves me time each week
+    - **Understand how software works** - So I can communicate better with AI/developers
+    - **Become more technical overall** - Build a foundation for learning more
+    - **All of the above** - I want it all
 
 ### Conversation Tips:
 - React genuinely to their answers ("Oh interesting, spreadsheet formulas are a great foundation...")
@@ -62,6 +91,7 @@ Start with a warm greeting and your first question. Be curious, not clinical.
 - Don't rush—this is building rapport AND gathering important information
 - If they mention a pain point, acknowledge it and note it for later
 - Keep track of everything they share—you'll use it all
+- Use the AskUserQuestion tool with options for dropdown questions
 
 ## Phase 3: Generate Their Profile
 
