@@ -28,15 +28,15 @@ npm install -g @anthropic-ai/claude-code
 3. Run the installer
 4. Close and reopen Terminal, then try the `npm install` command again
 
-### Step 3: Get an Anthropic API Key
+### Step 3: Get a Claude Subscription
 
-1. Go to [console.anthropic.com](https://console.anthropic.com/)
+You'll need a **Claude Pro** ($20/month) or **Claude Max** subscription to use Claude Code.
+
+1. Go to [claude.ai](https://claude.ai/)
 2. Create an account (or sign in)
-3. Add credits to your account under **Billing** (start with $5–10, that'll last a while for learning)
-4. Go to **API Keys** and create a new key
-5. Copy the key somewhere safe — you'll need it in the next step
+3. Click on your profile and subscribe to Claude Pro
 
-**Note:** Claude Code uses the Anthropic API, which costs money based on usage. It's not expensive for learning — a few dollars will get you pretty far — but it's not free. Think of it like paying for electricity to run the AI.
+That's it — no API keys or billing setup needed.
 
 ### Step 4: Download This Project
 
@@ -70,7 +70,7 @@ In that terminal, run:
 claude
 ```
 
-The first time you run it, Claude Code will ask for your API key. Paste the key you saved from Step 3.
+The first time you run it, Claude Code will open a browser window to sign in to your Claude account. Just log in and you're good to go.
 
 ### Step 6: Begin Learning
 
