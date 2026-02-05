@@ -6,7 +6,17 @@ A beginner-friendly training ground for learning software engineering fundamenta
 
 ## Getting Started (Mac)
 
-### Step 1: Install VS Code
+### Step 1: Install Xcode Command Line Tools
+
+Open **Terminal** (press `Cmd + Space`, type "Terminal", hit Enter) and run:
+
+```bash
+xcode-select --install
+```
+
+A popup will appear — click **Install** and wait for it to finish. This gives your Mac the basic developer tools it needs (like `git`).
+
+### Step 2: Install VS Code
 
 1. Go to [code.visualstudio.com](https://code.visualstudio.com/)
 2. Click the big blue download button (it'll detect you're on Mac)
@@ -14,7 +24,7 @@ A beginner-friendly training ground for learning software engineering fundamenta
 4. Drag **Visual Studio Code** to your **Applications** folder
 5. Open it from Applications (you may need to right-click → Open the first time)
 
-### Step 2: Install Claude Code
+### Step 3: Install Claude Code
 
 Open **Terminal** (press `Cmd + Space`, type "Terminal", hit Enter) and paste this command:
 
@@ -28,7 +38,7 @@ npm install -g @anthropic-ai/claude-code
 3. Run the installer
 4. Close and reopen Terminal, then try the `npm install` command again
 
-### Step 3: Get a Claude Subscription
+### Step 4: Get a Claude Subscription
 
 You'll need a **Claude Pro** ($20/month) or **Claude Max** subscription to use Claude Code.
 
@@ -38,7 +48,7 @@ You'll need a **Claude Pro** ($20/month) or **Claude Max** subscription to use C
 
 That's it — no API keys or billing setup needed.
 
-### Step 4: Download This Project
+### Step 5: Download This Project
 
 In Terminal, run these commands one at a time:
 
@@ -58,7 +68,7 @@ code .
 
 **Note:** If the `code .` command doesn't work, open VS Code manually, then press `Cmd + Shift + P`, type "shell command", and select **"Shell Command: Install 'code' command in PATH"**. Then try again.
 
-### Step 5: Start Claude Code
+### Step 6: Start Claude Code
 
 With VS Code open to this project, open the built-in terminal:
 - Press `` Ctrl + ` `` (that's the backtick key, above Tab)
@@ -72,7 +82,7 @@ claude
 
 The first time you run it, Claude Code will open a browser window to sign in to your Claude account. Just log in and you're good to go.
 
-### Step 6: Begin Learning
+### Step 7: Begin Learning
 
 Once Claude Code is running, type:
 
