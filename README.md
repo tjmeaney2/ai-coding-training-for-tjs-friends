@@ -32,8 +32,11 @@ npm install -g @anthropic-ai/claude-code
 
 1. Go to [console.anthropic.com](https://console.anthropic.com/)
 2. Create an account (or sign in)
-3. Go to **API Keys** and create a new key
-4. Copy the key somewhere safe — you'll need it in the next step
+3. Add credits to your account under **Billing** (start with $5–10, that'll last a while for learning)
+4. Go to **API Keys** and create a new key
+5. Copy the key somewhere safe — you'll need it in the next step
+
+**Note:** Claude Code uses the Anthropic API, which costs money based on usage. It's not expensive for learning — a few dollars will get you pretty far — but it's not free. Think of it like paying for electricity to run the AI.
 
 ### Step 4: Download This Project
 
